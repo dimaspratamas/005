@@ -1,0 +1,371 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*STYLE*/
+
+body {
+	background-color: #212121;
+	position: relative;
+
+}
+
+/*.opening {
+	width: 1349px;
+	height: 759px;
+	background-image: url(img/img_opening.png);
+	background-repeat: no-repeat;
+	
+}
+*/
+.pos-f-t .collapse{
+	width: 1349px;
+	height: 759px;
+	background-color: #b32c27;
+	padding: 0;
+	margin-top: -60px;
+	margin-left: -24px;
+}
+
+
+.pos-f-t nav {
+	background-color: maroon;
+
+}
+
+.pos-f-t .navbar button {
+	border-radius: 300px;
+	border-color: #b32c27;
+	border-width: 2px;
+}
+
+
+.carousel-indicators {
+	width: 1349px;
+	height: 5px;
+	margin: 9px auto;
+
+}
+
+.carousel-indicators li {
+	width: 1349px;
+	height: 5px;
+	background-color: red;
+	margin: auto;
+	 
+}
+
+.about1 {
+	width: 1349px;
+	height: 257px;
+	background-color: #212121;
+
+}
+
+.about_h {
+	width: 207px;
+	height: 93px;
+	background-image: url(img/img_about.png);
+	background-repeat: no-repeat;
+	/*position: absolute;*/
+	margin-top: 193px;
+	margin-left: 193px;
+	float: left;
+}
+
+.imgabout {
+	width: 675px;
+	height: 473px;
+	background-image: url(img/img_driver.png);
+	background-repeat: no-repeat;
+	/*position: absolute;*/
+	margin-top: 130px;
+	/*argin-left: 300px;*/
+	float: right;
+}
+
+.about_h .about_isi {
+	width: 300px;
+	color: white;
+	position: absolute;
+	margin-top: 260px;
+	font: 24px/24px arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 40px;
+}
+
+.about_h .about_p {
+	width: 947px;
+	color: white;
+	position: absolute;
+	margin-top: 450px;
+	font: 12px/14px arial, sans-serif;
+	letter-spacing: 2px;
+	line-height: 40px;*/
+}
+
+
+.about2 {
+	width: 1349px;
+	height: 586px;
+	background-color: #e53732;
+
+}
+
+.about_h .btn-group button {
+	width: 300px; 
+	border: 1px solid;
+	border-radius: 0px;
+	border-color: white;
+	position: absolute;
+	margin-top: 550px;
+	margin-left: -10px; 
+	background-color: #e53732;
+	text-align: left;
+}
+
+.case {
+	width: 1349px;
+	height: 345px;
+	background-image: url(img/case.png);
+}
+
+.case .case_orang {
+	height: 303px;
+	background-image: url(img/case_orang.png);
+	background-repeat: repeat-x;
+}
+
+.case .typecase {
+	width: 1349px;
+	height: 100px;
+	background-image: url(img/typecase.png);
+}
+
+
+.faq {
+	width: 1349px;
+	height: 838px;
+	background-color: #171717;
+	margin-top: 58px;
+}
+
+.faq_head {
+	width: 115px;
+	height: 105px;
+	margin-top: 193px;
+	margin-left: 193px;
+	position: absolute;
+}
+
+.faq .list-group {
+	width: 924px;
+	height: : 369px;
+	margin-top: 350px;
+	margin-left: 193px;
+	margin-right: 193px;
+	position: absolute;
+
+}
+
+.faq .list-group .list-group-item {
+	margin-bottom: 10px;
+	line-height: 20px;
+	border-radius: 0px;
+	background-color: #171717;
+	border-left: 2px;
+	border-right: 2px;
+	border-color: darkgrey;
+
+}
+
+.maps {
+	width: 1349px;
+	height: 508px;
+	background-image: url(img/img_maps.png);
+}
+
+.footer {
+	width:  1349px;
+	height:  135px;
+	background-color: #171717;
+}
+
+.footer .footer_txt {
+	color: white;
+	margin-top: 50px;
+	position: absolute;
+	margin-left: 193px;
+}
+
+.button {
+	width: 1349px;
+	height: 136px;
+	background-color: #333;
+	text-align: center;
+
+}
+
+.button button{
+	width: 203px;
+	height: 68px;
+	margin-top: 35px;
+	color: #333;
+	background-color: #b4b4b4;
+	margin-left: 10px;
+	margin-right: : 10px;
+	border-radius: 0px;
+}
+
+
+.contact {
+	width: 1349px;
+	height: 77px;
+	background-color: #171717;
+
+}
+
+.contact a{
+	font : 12px/12px arial,sans-serif;
+	font-weight: bold;
+	color: white;	
+}
+
+.contact h3{
+	font : 12px/12px arial,sans-serif;
+	font-weight: bold;
+	color: white;	
+}
+
+.bawah {
+	width: 1349px;
+	height: 51px;
+	background-color: #e53732;
+	position: relative;
+}
+
+
+.bawah .bottom a{
+	width: 51px;
+	height: 51px;
+	position: absolute;
+	right: 0px;
+}
+
+.bawah .buttonlast .btn-group-a button{
+	width: 101px;
+	height: 51px;
+	border-radius: 0px;
+	background-color: #b32c27;
+	font: 12px/12px arial, sans-serif;
+	margin-left: 2px;
+	position: absolute;
+}
+
+.bawah .buttonlast .btn-group-b button{
+	width: 177px;
+	height: 51px;
+	border-radius: 0px;
+	background-color: #b32c27;
+	font: 12px/12px arial, sans-serif;
+	margin-left: 2px;
+	position: absolute;
+}
+
+.bawah .tekslast {
+	font: 16px/14px arial, sans-serif;
+	color: white;
+	font-weight: bold;
+	margin-top: 1px;
+	margin-left: 193px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.slide {
+	width: 1349px;
+	height: 64px;
+	background-image: url(img/typeslide.png);
+}*/
+
+/*clearfix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
